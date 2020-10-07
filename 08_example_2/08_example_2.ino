@@ -59,10 +59,10 @@ void loop() {
     float light;
 
     if (dist_raw > 200){
-      light = 255-(((200 - dist_raw)/100)*255);
+      light = -(((200 - dist_raw)/100)*255);
     }
     else {
-      light = 255+(((200 - dist_raw)/100)*255);
+      light = +(((200 - dist_raw)/100)*255);
     }    
     analogWrite(PIN_LED, light);
   }
