@@ -30,10 +30,10 @@
 #define _INTERVAL_SERIAL 100
 
 //PID parameters
-#define _ITERM_MAX 15.0
+#define _ITERM_MAX 30.0
 #define _KP 1.03
-#define _KD 36.5L
-#define _KI 0.0019
+#define _KD 39.7
+#define _KI 0.01
 
 // Filter
 #define DELAY_MICROS  1500
